@@ -59,28 +59,28 @@ table {
 
 @font-face {
   font-family: "Young Serif";
-  src: url("/assets/fonts/young-serif/youngserifreg.ttf") format("truetype");
+  src: url("/FrontendMentorRecipePage/assets/fonts/young-serif/youngserifreg.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Outfit";
-  src: url("/assets/fonts/outfit/static/outfitregular.ttf") format("truetype");
+  src: url("/FrontendMentorRecipePage/assets/fonts/outfit/static/outfitregular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Outfit";
-  src: url("/assets/fonts/outfit/static/outfitsemibold.ttf") format("truetype");
+  src: url("/FrontendMentorRecipePage/assets/fonts/outfit/static/outfitsemibold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Outfit";
-  src: url("/assets/fonts/outfit/static/outfitbold.ttf") format("truetype");
+  src: url("/FrontendMentorRecipePage/assets/fonts/outfit/static/outfitbold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
