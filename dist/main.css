@@ -1,0 +1,239 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Young Serif";
+  src: url("/assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("/assets/fonts/outfit/static/Outfit-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("/assets/fonts/outfit/static/Outfit-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("/assets/fonts/outfit/static/Outfit-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  font-size: 16px;
+}
+
+.body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(30, 54%, 90%);
+}
+
+h1, h2 {
+  font-family: "Young Serif", sans-serif;
+}
+
+.container {
+  position: relative;
+}
+.container__body {
+  background-color: hsl(0, 0%, 100%);
+  min-width: 320px;
+  width: 52vw;
+  padding: clamp(25px, 4.6538vw, 40px);
+  margin: 90px auto;
+  border-radius: clamp(0px, (100vw - 500px) * 0.1, 20px);
+}
+.container__list li {
+  line-height: clamp(170%, 4.6538vw, 200%);
+  padding-left: 40px;
+  position: relative;
+  color: hsl(30, 10%, 34%);
+}
+.container__list li strong {
+  font-weight: 700;
+}
+.container__list li, .container__list li {
+  position: relative;
+  padding-left: 40px;
+}
+.container__description {
+  color: hsl(30, 10%, 34%);
+  font-size: 1rem;
+  line-height: 150%;
+  margin-bottom: 32px;
+}
+
+.header__container-img {
+  padding-bottom: 46.7%;
+}
+.header__wrapper-img {
+  position: absolute;
+  padding: clamp(0px, (100vw - 700px) * 0.1, 40px);
+  inset: 0;
+}
+.header__img {
+  position: relative;
+  width: clamp(320px, 50vw, 100%);
+  border-radius: clamp(0px, (100vw - 500px) * 0.1, 10px);
+  margin-bottom: 14px;
+}
+.header__title {
+  color: hsl(24, 5%, 18%);
+  font-size: clamp(2rem, (100vw - 500px) * 0.1, 2.25rem);
+  font-weight: 400;
+  line-height: 1;
+  padding: 28px 0 24px;
+}
+.header__description {
+  color: hsl(30, 10%, 34%);
+  font-size: auto;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 30px;
+}
+.header__time {
+  padding: 30px;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 15px;
+}
+
+.time__title {
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 15px;
+  color: hsl(332, 51%, 32%);
+}
+.time__list li::before {
+  content: "•";
+  padding-left: 10px;
+  padding-right: 24px;
+  color: hsl(332, 51%, 32%);
+  position: absolute;
+  left: 0;
+  font-weight: 400;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.main__separator {
+  border: none;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.main__section-product {
+  padding-bottom: 30px;
+}
+
+.section-product__title {
+  color: hsl(14, 45%, 36%);
+  font-size: 1.875rem;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 24px;
+  margin-top: 36px;
+}
+.section-product__list-ul li::before {
+  content: "•";
+  padding-left: 10px;
+  padding-right: 24px;
+  color: hsl(14, 45%, 36%);
+  position: absolute;
+  left: 0;
+  font-weight: 400;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.section-product__list-ol {
+  counter-reset: list-counter;
+}
+.section-product__list-ol li {
+  counter-increment: list-counter;
+}
+.section-product__list-ol li::before {
+  content: counter(list-counter) ". ";
+  padding-left: 10px;
+  padding-right: auto;
+  color: hsl(14, 45%, 36%);
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+}
+.section-product__table {
+  width: 100%;
+}
+.section-product__table tr:not(:last-child) {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.section-product__table tr td {
+  padding: 20px 35px;
+}
+.section-product__table tr td:nth-child(2) {
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+}/*# sourceMappingURL=main.css.map */

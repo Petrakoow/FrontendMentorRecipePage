@@ -1,0 +1,23 @@
+@mixin pattern-type-text($size, $weight, $line-height){
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $line-height;
+}
+
+@mixin style-ul-list($content, $p-left, $p-right, $color, $weight){
+    content: $content;
+    padding-left: $p-left;
+    padding-right: $p-right;
+    color: $color;
+    position: absolute;
+    left: 0;
+    font-weight: $weight;
+}
+
+@mixin createCircle($width, $height, $color){
+    display: inline;
+    width: $width;
+    height: $height;
+    background-color: $color;
+    border-radius: 50%;
+}
