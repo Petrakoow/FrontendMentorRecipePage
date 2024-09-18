@@ -26,10 +26,10 @@
     ![Превью проекта](./assets/preview/preview.png)
 
  - Laptop:\
-    ![Превью проекта](./assets/preview/preview-result-desktop-1.png)
+    ![Превью проекта](./assets/preview/preview-result-desktop-2.png)
 
  - Laptop:\
-    ![Превью проекта](./assets/preview/preview-result-desktop-2.png)
+    ![Превью проекта](./assets/preview/preview-result-desktop-1.png)
 
  - 4K:\
     ![Превью проекта](./assets/preview/preview-x-large.png)
