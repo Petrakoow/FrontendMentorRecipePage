@@ -98,6 +98,15 @@ h1, h2 {
   font-family: "Young Serif", sans-serif;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 .container {
   position: relative;
 }
@@ -130,16 +139,18 @@ h1, h2 {
 }
 
 .header__container-img {
+  display: flex;
   padding-bottom: 46.7%;
 }
 .header__wrapper-img {
   position: absolute;
   padding: clamp(0px, (100vw - 700px) * 0.1, 40px);
-  inset: 0;
+  top: 0;
+  left: 0;
+  overflow: hidden;
 }
 .header__img {
-  position: relative;
-  width: clamp(320px, 50vw, 100%);
+  width: 100%;
   border-radius: clamp(0px, (100vw - 500px) * 0.1, 10px);
   margin-bottom: 14px;
 }
